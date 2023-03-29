@@ -1,0 +1,232 @@
+/* Google Font import */
+@import url('https://fonts.googleapis.com/css2?family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&display=swap');
+
+/* Body Styling */
+body {
+  font-family: 'Libre Caslon Text', serif;
+  background-color: whitesmoke;
+}
+
+.divider {
+  width: 100%;
+  height: 20px;
+}
+
+
+/* Navbar Styling */
+nav {
+  width: 100%;
+  position: fixed;
+  top: 0px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #323232;
+  color: white;
+}
+
+.navTitle {
+  font-size: 40px;
+}
+
+.navLink {
+  font-size: 35px;
+  background-color: #323232;
+  border: none;
+  color: white;
+  padding: 10px;
+  font-family: 'Libre Caslon Text', serif;
+}
+
+.navLink:hover {
+  color: #a0c494;
+  cursor: pointer;
+}
+
+.leftNav {
+  flex: 1;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.rightNav {
+  flex: 1;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.midNav {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+
+/* Styling for the Home Page  */
+
+.top {
+  width: 100%;
+}
+
+.homeIMG {
+  width: 20%;
+  height: 400px;
+  object-fit: cover;
+  margin: 0px 50px;
+  border: 10px outset #74916a;
+  box-shadow: 20px 20px 20px #323232;
+  
+}
+
+.homeDiv {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.homeTitle {
+  font-size: 60px;
+  text-align: center;
+  margin: 0px 0px 150px 0px;
+  padding-top: 250px;
+  color: #74916a;
+  font-weight: 200;
+}
+
+/* Styling for About Page */
+.aboutTitle {
+  font-size: 60px;
+  text-align: center;
+  margin: 130px 0px 20px 0px;
+  color: #74916a;
+  font-weight: 200;
+}
+
+.aboutIMG {
+  width: 60%;
+  height: 400px;
+  object-fit: cover;
+  margin: 20px 0px;
+  border: 10px outset #74916a;
+  box-shadow: 20px 20px 20px #323232;
+}
+
+.leftSideAbout {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+}
+
+.rightSideAbout {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+}
+
+.mainAbout {
+  display: flex;
+}
+
+.about {
+  font-size: 40px;
+  width: 80%;
+  margin-top: 70px;
+  text-align: center;
+  text-indent: 50px;
+  line-height: 70px;
+  
+}
+
+/* Styling for Gallery */
+.galleryTitle {
+  font-size: 60px;
+  text-align: center;
+  margin: 130px 0px 40px 0px;
+  color: #74916a;
+  font-weight: 200;
+}
+
+
+.row {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+}
+
+.content {
+  padding: 10px;
+}
+
+.galleryIMG {
+  width: 380px;
+  height: 500px;
+  object-fit: cover;
+  margin: 20px 0px;
+  border: 10px outset #74916a;
+  box-shadow: 20px 20px 20px #323232;
+}
+
+/* Styling for the Contact Page */
+.contactTitle {
+  font-size: 60px;
+  text-align: center;
+  margin: 130px 0px 40px 0px;
+  color: #74916a;
+  font-weight: 200;
+}
+
+/* Styling for contact page email signup form */
+.signup {
+  font-size: 30px;
+  text-align: center;
+}
+
+.emailSignup {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 70px;
+}
+
+.emailInput {
+  font-size: 25px;
+  width: 500px;
+}
+
+.emailButton {
+  font-size: 23px;
+  padding: 10px 20px;
+  margin-left: 10px;
+  font-family: 'Libre Caslon Text', serif;
+  background-color: #74916a2f;
+  color: #323232;
+  border: 2px solid #323232;
+  letter-spacing: .5px;
+}
+
+.emailButton:hover {
+  transition: .2s;
+  background-color: #74916a;
+  color: white;
+  cursor: pointer;
+}
+
+/* Styling for the bottom socials */
+.socials {
+  width: 60%;
+  height: 20px;
+  margin: 0px auto 100px auto;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.links {
+  font-size: 30px;
+  margin-top: 30px;
+  color: #74916a;
+}
+
+.links:hover {
+  color: #323232;
+  cursor: pointer;
+}
