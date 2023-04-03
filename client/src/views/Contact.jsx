@@ -7,12 +7,19 @@ const Contact = () => {
             <h2 className='contactTitle'>Contact</h2>
 
             <div>
-                <p className='signup' >Sign up for updates on deals and more.</p>
+                <p className='signup' >Send me an email if you are interested or have any questions.</p>
+
                 <form className='emailSignup'>
-                    <input type="email" for="email" className='emailInput' placeholder='Your Email' />
-                    <button className='emailButton' >Sign Up</button>
+                    <label for="name" className='label' >Your Name</label>
+                    <input type="text" for="name" className='input'/>
+                    <label for="email" className='label' >Your Email</label>
+                    <input type="email" for="email" className='input' />
+                    <label for="message" className='label' >Message</label>
+                    <textarea className='message' rows="6" cols="10" name='message'></textarea>
+                    <button className='emailButton' >Send Email</button>
                 </form>
-                <p className='signup'>Send me a message on any of the following if interested in a portrait.</p>
+
+                <p className='signup'>Or you can contact me on any of the following.</p>
                 <div className='socials'>
                     <a className='links' href='https://www.instagram.com/kennpearl.art/' >Instagram</a>
                     <a className='links' href='https://www.etsy.com/shop/PencilPawsPortraits?ref=l2-about-shopname' >Etsy</a>

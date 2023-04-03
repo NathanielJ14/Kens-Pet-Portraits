@@ -116,6 +116,7 @@ nav {
   width: 60%;
   display: flex;
   justify-content: center;
+  
 }
 
 .rightSideAbout {
@@ -126,6 +127,7 @@ nav {
 
 .mainAbout {
   display: flex;
+  
 }
 
 .about {
@@ -185,23 +187,47 @@ nav {
 .emailSignup {
   display: flex;
   justify-content: center;
-  margin-bottom: 70px;
+  flex-direction: column;
+  width: 28%;
+  margin: 0px auto 70px auto;
+  padding: 20px;
+  border-radius: 20px;
+  
 }
 
-.emailInput {
-  font-size: 25px;
+.input {
+  font-size: 23px;
   width: 500px;
+  margin-bottom: 30px;
+  padding: 10px;
+  border-radius: 20px;
+  border: #74916a 2px solid;
+}
+
+.label {
+  font-size: 27px;
+  margin: 10px;
+  color: #323232;
+}
+
+.message {
+  font-size: 23px;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  border: #74916a 2px solid;
 }
 
 .emailButton {
   font-size: 23px;
   padding: 10px 20px;
-  margin-left: 10px;
+  margin: 0px auto;
   font-family: 'Libre Caslon Text', serif;
   background-color: #74916a2f;
   color: #323232;
   border: 2px solid #323232;
   letter-spacing: .5px;
+  width: 35%;
+  border-radius: 10px;
 }
 
 .emailButton:hover {
