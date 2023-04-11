@@ -1,4 +1,4 @@
-# Pencil-Paws-Pet-Portriats
+# Pencil Paws Pet Portriats
 
 ![Picture of the home page.](https://user-images.githubusercontent.com/117672031/231279037-75f48881-a71d-41f3-9f5c-19489ce6d58d.PNG)
 
